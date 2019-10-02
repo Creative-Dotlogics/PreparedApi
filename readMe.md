@@ -1,4 +1,4 @@
-#PREPARED API
+# PREPARED API
 
 Prepared is the worlds unbeatable API that houses over 3 billion questions for college students, sorted into courses and topics. The relevance of prepared cannot be ignored. Built for all developers. Prepared gives you the freedom to handle answer checking in your application or you could rely on us to handle that and return to you whether the user chose a correct answer. With Prepared you can build a very robust and content appreciable quiz application to help a college in your nation or vicinity.
 
@@ -7,7 +7,7 @@ We would go over all the possibilities of our API in this documentation. Just si
 
 >Our API is queried with course codes instead of course titles since every college has different course codes.
 
-###Courses &amp; Course codes
+### Courses &amp; Course codes
 
 |Course|Level|Course Code|
 |------|-----|-----------|
@@ -30,7 +30,7 @@ This table does not contain all the courses we have. We figured that would be so
 
 `Lets see how you could make API calls to our api with all these languages`
 
-####JavaScript
+#### JavaScript
 using the fetch API
 ```JavaScript
   fetch(`api.prepared.com/courses/${courseCode}/${limit}`)
@@ -60,7 +60,7 @@ the above code parses our data returned as JSON and finally you could get the re
 you could start using our API after this
 
 
-#####Result
+##### Result
 ```JSON
 {
     "count": 1,
